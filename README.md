@@ -1,2 +1,0 @@
-# serviceapp
-study app
