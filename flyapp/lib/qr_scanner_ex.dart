@@ -6,8 +6,8 @@ import 'package:qr_flutter/qr_flutter.dart';
 
 const bgColor = Color(0xfffafafa);
 
-class QRScanner extends StatelessWidget {
-  QRScanner({super.key});
+class QRScannerEX extends StatelessWidget {
+  QRScannerEX({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
