@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flyapp/domain/api_clients.dart';
 import 'package:flyapp/qr_scaner.dart';
 
 void main() {
@@ -10,6 +11,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ApiClient().getBass("777777");
     return MaterialApp(
       theme: ThemeData(
           appBarTheme: const AppBarTheme(
